@@ -1,6 +1,6 @@
 # Pocket Radar
 
-A radar screen you can hold. A 60 GHz mmWave sensor tracks people in the room, and a 128x128 OLED draws them as live dots on a sweeping radar display. Sit still within 1.5 m and it shows your heart and breathing rate too.
+A real-life take on the Heartbeat Sensor from Call of Duty: a radar screen you can hold. A 60 GHz mmWave sensor tracks people in the room, and a 128x128 OLED draws them as live dots on a sweeping radar display. Sit still within 1.5 m and it shows your heart and breathing rate too.
 
 ![Pocket radar showing one target with heart and breathing rate](images/vitals.jpg)
 
@@ -71,7 +71,7 @@ These are at the top of `pocket_radar.ino`:
 
 ## Next
 
-- Run it off a battery so it actually fits in a pocket
+- A handheld enclosure with a grip and a battery, so it feels like the one in the game
 - Switch to a color OLED for a green radar with a fading trail
 - Smooth out the heart rate, and add a heart icon that pulses at your measured rate
 
