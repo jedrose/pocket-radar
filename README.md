@@ -69,9 +69,15 @@ These are at the top of `pocket_radar.ino`:
 - Seeed rates presence detection out to 6 m. In my testing, position tracking held a still person at 1.6 m and briefly picked someone up at 2.8 m. I still need to do a proper walk test past 3 m.
 - The OLED is single-color, white.
 
+## Enclosure (v0.1, in progress)
+
+The next build is a handheld case, so it feels like the one in the game. The design is done but not printed yet: a radar-gun shape with the radar facing forward through a 1.5 mm radome, the screen tilted 35° up at you, and an 18650 in the grip. It's a parametric CadQuery model with a built-in fit check. Files, the radome math, and print notes are in [`enclosure/`](enclosure/).
+
+![Labeled cutaway of the enclosure](images/enclosure-cutaway.jpg)
+
 ## Next
 
-- A handheld enclosure with a grip and a battery, so it feels like the one in the game
+- Measure the boards, print the enclosure, and A/B test radome thickness (no window vs 1.5 mm vs 3 mm) against tracking range
 - Switch to a color OLED for a green radar with a fading trail
 - Smooth out the heart rate, and add a heart icon that pulses at your measured rate
 
